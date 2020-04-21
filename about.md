@@ -29,7 +29,7 @@ I love:
 
 ## Get in touch?
 
-Please feel free to contact :) You could <a href="mailto:ggicci.t@gmail.com">send me an email</a>. Or leave a message here:
+Please feel free to contact :) You could <a href="mailto:ggicci.t@gmail.com?subject=%5BMail%20from%20ggicci.me%5D%20">send me an email</a>. Or leave a message here:
 
 <form class="contact-form">
     <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">
