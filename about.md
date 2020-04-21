@@ -6,7 +6,10 @@ permalink: /about/
 
 # About
 
-Full Stack Engineer at [Wish](https://www.wish.com). Former Back End Engineer at [Alibaba Cloud](https://www.aliyun.com).
+My name is Ggicci. Nice to meet you!
+
+\- Full Stack Engineer at [Wish](https://www.wish.com).<br>
+\- Former Back End Engineer at [Alibaba Cloud](https://www.aliyun.com).
 
 I love:
 
