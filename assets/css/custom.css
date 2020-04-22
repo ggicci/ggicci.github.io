@@ -1,0 +1,59 @@
+---
+---
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+/* End hide from IE-mac */
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.highlighter-rouge {
+  margin: 1em auto;
+  border: 1px solid #111;
+  padding: 0.5em 0.75em;
+}
+.highlighter-rouge pre.highlight {
+  line-height: 1.5em !important;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+/*
+.site-title {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  padding: 12px 0;
+}
+
+.menu > ul {
+  display: inline-block;
+  margin: 0;
+}
+*/
