@@ -1,6 +1,11 @@
 ---
 ---
 
+code {
+  font-family: "Fira Code", "Source Code Pro", Menlo, Consolas, Monaco,
+    monospace;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -30,30 +35,12 @@
 }
 
 .highlighter-rouge {
-  margin: 1em auto;
-  border: 1px solid #111;
-  padding: 0.5em 0.75em;
+  margin: 1.5em auto;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  padding: 0.5em 0;
 }
+
 .highlighter-rouge pre.highlight {
   line-height: 1.5em !important;
 }
-
-.spacer {
-  flex-grow: 1;
-}
-
-/*
-.site-title {
-  margin: 0;
-}
-
-.menu {
-  display: flex;
-  padding: 12px 0;
-}
-
-.menu > ul {
-  display: inline-block;
-  margin: 0;
-}
-*/
