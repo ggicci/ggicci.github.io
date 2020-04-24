@@ -14,15 +14,26 @@
 <script src="https://unpkg.com/mermaid@8.5.0/dist/mermaid.min.js"></script>
 <script>
   var config = {
-    theme: 'default',
-    logLevel: 'fatal',
-    securityLevel: 'loose',
+    theme: "default",
+    logLevel: "fatal",
+    securityLevel: "loose",
     startOnLoad: true,
     flowchart: {
       htmlLabels: true,
     },
+  };
+  mermaid.initialize(config);
+
+  // Replace <pre><code class="language-mermaid">...</code></pre>
+  // to <div class="language-mermaid">...</div>
+  const elements = document.querySelectorAll("pre > code.language-mermaid");
+  for (let i = 0; i < elements.length; i++) {
+    const code = elements[i];
+    const pre = code.parentNode;
+    const div = document.createElement("div");
+    div.setAttribute("class", "language-mermaid");
+    div.innerHTML = code.innerHTML;
+    pre.parentNode.replaceChild(div, pre);
   }
-  mermaid.initialize(config)
-  // TODO(ggicci): pre > code --> div
-  mermaid.init('.language-mermaid')
+  mermaid.init(".language-mermaid");
 </script>

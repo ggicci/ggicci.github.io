@@ -34,13 +34,22 @@ code {
   float: right;
 }
 
-.highlighter-rouge {
+div[class^="language-"] {
   margin: 1.5em auto;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
   padding: 0.5em 0;
 }
 
-.highlighter-rouge pre.highlight {
-  line-height: 1.5em !important;
+div[class^="language-"] code {
+  line-height: 1.25em !important;
+}
+
+.language-mermaid {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+code.highlighter-rouge {
+  color: #8bc34a;
 }
