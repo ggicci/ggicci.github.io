@@ -10,3 +10,19 @@
   </span>
   <span class="clearfix"></span>
 </footer>
+
+<script src="https://unpkg.com/mermaid@8.5.0/dist/mermaid.min.js"></script>
+<script>
+  var config = {
+    theme: 'default',
+    logLevel: 'fatal',
+    securityLevel: 'loose',
+    startOnLoad: true,
+    flowchart: {
+      htmlLabels: true,
+    },
+  }
+  mermaid.initialize(config)
+  // TODO(ggicci): pre > code --> div
+  mermaid.init('.language-mermaid')
+</script>

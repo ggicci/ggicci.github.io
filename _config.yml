@@ -22,8 +22,8 @@ title: GGICCI
 email: ggicci.t@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   TO THINE OWN SELF BE TRUE
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://ggicci.me' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ggicci.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ggicci
 github_username: ggicci
 
