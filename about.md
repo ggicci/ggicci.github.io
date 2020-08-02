@@ -20,13 +20,13 @@ My name is Ggicci. Nice to know you!
 
 I love:
 
-- 👨🏻‍💻**Coding**: [GitHub](https://github.com/ggicci)
-- 🐱**Cats**
-- ☕️ **Coffee**: I drink coffee almost every day. And sometimes I make homemade brew coffee.
-- 📚 **Reading**
+- 👨🏻‍💻 **Coding**: [GitHub](https://github.com/ggicci)
+- 🐱 **Cats**
+- ☕️ **Coffee**
 - 🍳 **Cooking**
-- 🏝 **Traveling**: I haven't been to many places. But I do love traveling.
-- 🎮 **Dota2**: CM. 1300+ Rounds.
+- 📚 **Reading**
+- 🏝  **Traveling**
+- 🎮 **Gaming**: CSGO, Dota2
 - 🧜‍♂️ **Men**
 
 ## Get in touch?
